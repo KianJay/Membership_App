@@ -24,7 +24,7 @@ namespace LAB
             Member[] m = new Member[numberOfMembers];
 
             //First message seen by user.
-            Console.WriteLine("\tWelcome to use Sport Membership App\n");
+            Console.WriteLine("\tWelcome to the Sport Membership App\n");
 
             //For  while loop goes on til the maximum capacity of the array.
             for (int i = 0; i < numberOfMembers; i++)
