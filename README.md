@@ -8,6 +8,8 @@ If they have a special offer, the total amount of cost will have 15% discount.</
 Makes a calculation membership and displays the result. The program should be kept running with entering next set of input data.</br>
 After all sets of input data are entered,</br> the program will also display the information that includes the customer spending most, the customer spending least as well as a simple chart to display how many members with the number of months are less than 6 months or 6 months and greater than 6 months.</br>
 </br>
+<h2>The Sport Membership App</h2>
+After 5 members (Duyoung, Kian, Jay, Kim and Choi) put the given information correctly, </br>the summary of membership information will display with the number of member with 6months or less than 6 months and with over 6 months as a result.</br></br>
 <img src="https://miro.medium.com/max/440/1*3GOkPuowXcu_EbeclBNEfg.png"/>
 
 </br>
