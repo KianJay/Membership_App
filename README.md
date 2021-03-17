@@ -15,6 +15,8 @@ After all sets of input data are entered,</br> the program will also display the
 The application should be user-friendly by displaying appropriate welcome, exit and error message. </br>Your program should be run as normal without changing any source code except setting M with a different value.</br>
 The member can register 1~60 months. An error message should be issued if a user enters a value beyond the range and the re-entering is required.</br>
 An error message should be issued if the user enters something else other than yes or no for the special offer and the re-entering is required.</br>
+</br>
 <img src="https://miro.medium.com/max/444/1*kxfvKyWq9gBgCKzjXXkIuA.png"/>
+</br>
 <h4>More detail can be found in my blog</h4>
 https://medium.com/kianj/c-simple-sport-membership-application-f0806e4affa7
