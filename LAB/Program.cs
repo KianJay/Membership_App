@@ -25,7 +25,7 @@ namespace LAB
         //calculating the rate with the months that user enter. With the If-else Condition.
         public void CalculateRate(int monthsIn)
         {
-            if (monthsIn < 0 && monthsIn < 6)
+            if (monthsIn > 0 && monthsIn <= 6)
             {
 
                 rate = 30.0;

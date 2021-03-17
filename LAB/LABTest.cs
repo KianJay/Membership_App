@@ -8,8 +8,8 @@ namespace LAB
     {
         static void Main(string[] args)
         {
-            //the largest number in my student number is 9.
-            const int numberOfMembers = 9;
+            //the number of members we get are 5.
+            const int numberOfMembers = 5;
             //user cannot enter month less than 1 more than 60. This is a validation boolean.
             bool monthValid = false;
             bool nameValid = false;
@@ -17,19 +17,19 @@ namespace LAB
             int validatedNumber;
 
             //for loop will add "x" for every single member depending on the number of months
-            string over6Monts = ""; 
-            string lessthan6Monts = "";
+            string over6Months = ""; 
+            string lessor6Months = "";
 
-            //we have multiple members, so we need to call it as an Array.
+            //we have multiple members, use an Array.
             Member[] m = new Member[numberOfMembers];
 
             //First message seen by user.
             Console.WriteLine("\tWelcome to use Sport Membership App\n");
 
-            //For  while loop goes on till the maximum capacity of the array.
+            //For  while loop goes on til the maximum capacity of the array.
             for (int i = 0; i < numberOfMembers; i++)
             {
-                //for loop will start from 0.
+                //for loop starts from 0.
                 m[i] = new Member();
 
                 //name validation to avoid empty or space only entry.
@@ -117,7 +117,7 @@ namespace LAB
             Member maxPaidMember = new Member();
             Member leastPaidMember = new Member();
 
-            //we have to set first array as the least member otherwise it will remain 0. For maxPaid we do not need to do this.
+            //set first array as the least member otherwise it will remain 0. For maxPaid we do not need to do this.
             leastPaidMember = m[0];
 
             //for loop, every single member first member automatically becomes a maxpaid as no other maxpaid entry before. 
@@ -147,17 +147,17 @@ namespace LAB
             Console.WriteLine("\nThe customer spending least is " + leastPaidMember.memberName + " with $" + leastPaidMember.totalCharge+"\n");
             for (int y = 0; y < numberOfMembers; y++)
             {
-                if (m[y].months < 6)
+                if (m[y].months <= 6)
                 {
-                    lessthan6Monts += "x";
+                    lessor6Months += "x";
                 }
-                else
+                else if (m[y].months > 6)
                 {
-                    over6Monts += "x";
+                    over6Months += "x";
                 }
             }
-            Console.WriteLine("  The number of member with < 6 months: " + lessthan6Monts);
-            Console.WriteLine("  The number of member with >= 6 months: " + over6Monts);
+            Console.WriteLine("  The number of member with <= 6 months: " + lessor6Months);
+            Console.WriteLine("  The number of member with > 6 months: " + over6Months);
 
         }
     }
