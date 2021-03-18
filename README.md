@@ -20,5 +20,12 @@ An error message should be issued if the user enters something else other than y
 </br>
 <img src="https://miro.medium.com/max/444/1*kxfvKyWq9gBgCKzjXXkIuA.png"/>
 </br>
+
+<h2>Features </h2>
+C# 
+Caculate membership pricing depending on discount or months, deal with error validation and display summary as a result.
+<h2>Tech/framework used</h2>
+Visual Studio, dotnet
+
 <h4>More detail can be found in my blog</h4>
 https://medium.com/kianj/c-simple-sport-membership-application-f0806e4affa7
